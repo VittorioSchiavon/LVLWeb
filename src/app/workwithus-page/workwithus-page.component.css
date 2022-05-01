@@ -1,0 +1,53 @@
+#lavoraConNoi{
+    background: linear-gradient(180deg, transparent 30%, var(--yellow) 0%);
+    height: 20em;
+}
+
+#title{
+    color: var(--black);
+    display: block;
+    width: fit-content;
+    margin: auto;
+    font-size: 2em;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+
+#titleContainer{
+    
+    text-align: center;
+    color: white;
+}
+
+#textContainer{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2%;
+    font: 1em;
+}
+
+#emailContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+}
+.email{
+    font-weight: 900;
+    font-size: 2em;
+    color: var(--main-color-darker);
+    margin: 1em;
+
+
+}
+i{
+    color: var(--main-color-darker);
+    font-size: 3em;
+}
+h2{
+    font-size: 1em;
+}

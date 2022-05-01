@@ -43,17 +43,18 @@
 }
 .studio img{
     height: 15em;
+    background: linear-gradient(180deg, transparent 20%, var(--blue) 0%);
+
 }
 .textBox{
     padding:2%;
 }
 
 #title{
-    font-size: 2.5em;
-    margin: 0.5em;
-    font-weight: 900;
-    background-color: var(--main-color-darker);
-    padding: 0.5em;
-    color:white;
-
+    position: relative;
+    width: fit-content;
+    display: block;
+    margin: auto;
+    text-transform: uppercase;
+    margin-top: 1em;
 }

@@ -12,6 +12,7 @@ h1{
 #sketch{
     width: auto;
     max-width: 40%;
+    mix-blend-mode: multiply;
 }
 #subtitle{
     font-weight: 100;

@@ -1,0 +1,54 @@
+#title{
+    position: relative;
+    width: fit-content;
+    display: block;
+    margin: auto;
+    text-transform: uppercase;
+    margin-top: 1em;
+}
+#container{
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.articleContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content:space-around;
+    position: relative;
+    margin: 2em;
+    align-items: center;
+}
+
+.articleContainer::after{
+    content : "";
+    position : absolute;
+    width : 100%;
+    height : 3px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--black);
+}
+
+.artImage{
+    height: 10em;
+    margin: 1em;
+}
+
+.contentSection{
+    min-width: 20em;
+}
+.contentSection div{
+    margin: 0.5em;
+}
+
+.name{
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+label{
+    margin-right: 1em;
+    font-style: italic;
+}
