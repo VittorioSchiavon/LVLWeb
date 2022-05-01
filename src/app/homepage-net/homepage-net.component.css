@@ -1,0 +1,37 @@
+#container{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top:10px;
+}
+
+#rightSection{
+    margin: 0;
+    box-sizing: content-box;
+}
+#rightSection img{
+    background: linear-gradient(180deg, transparent 30%, var(--blue) 0%);
+    height: 30em;
+}
+
+#leftSection{
+    max-width: 30em;
+}
+
+#title{
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#leftSection #textSection{
+    padding-left: 2em;
+}
+button{
+    display: block;
+    margin:auto;
+    margin-top:1em;
+}

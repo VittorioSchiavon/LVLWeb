@@ -1,0 +1,127 @@
+
+nav {
+   overflow: hidden;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: sticky;
+   top:0;
+   background-color: rgba(255, 255, 255, 0.9);
+}
+.links {
+   font-weight: 900;
+   float: left;
+   text-align: center;
+   padding: 1em;
+   text-decoration: none;
+   font-size: 1em;
+   text-transform: uppercase;
+}
+.logo {
+   height: 5em;
+   padding: 1em;
+   transition: transform 0.25s ease-out;
+}
+
+.logo:hover{
+   transform: scale(90%);
+}
+
+
+
+.links {
+   display: inline-block;
+   position: relative;
+ }
+ /*
+ .links:after {
+   content: '';
+   position: absolute;
+   width: 100%;
+   transform: scaleX(0);
+   height: 4px;
+   bottom: 0;
+   left: 0;
+   background-color: var(--main-color);
+   transform-origin: bottom right;
+   transition: transform 0.25s ease-out;
+ }
+ 
+ .links:hover:after {
+   transform: scaleX(1);
+   transform-origin: bottom left;
+ }
+
+*/
+.links:hover{
+      color:var(--black);
+      background: linear-gradient(120deg, var(--main-color-lighter) 0%, var(--main-color-lighter) 100%);
+      background-repeat: no-repeat;
+      background-size: 100% 40%;
+      background-position: 0 80%;
+
+}
+#menuContainer{
+   background-color: rgba(255, 255, 255, 0.4);
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.menuBox{
+   position:absolute;
+   top: 0;
+   left: 0;
+}
+.hambSection{
+   font-weight: 900;
+   float: left;
+   color:black;
+   text-align: center;
+   padding: 1em;
+   text-decoration: none;
+   font-size: 1em;
+   text-transform: uppercase;
+}
+.hambSection:hover{
+   color: var(--main-color);
+}
+.hidden{
+   display: none;
+   transition-duration: 1s;
+}
+
+#hambButton{
+   background-color: transparent;
+   border: none;
+   padding: 0.5em;
+   font-weight: 900;
+   font-size: 1.3em;
+   z-index: 30;
+}
+#hambButton:hover{
+   color: var(--main-color)
+}
+
+#hamb{
+   display: none;
+   z-index: 999;
+}
+
+@media screen and (max-width: 870px) {
+   .rightSection {
+      display: none;
+   }
+   #hamb{
+      display: block;
+   }
+}
+
+.fa{
+   font-weight: 900;
+   font-size: 1em;
+   padding: 1em;
+   width: fit-content;
+   height: fit-content;
+}

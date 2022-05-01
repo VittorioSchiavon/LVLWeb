@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+    --main-color: rgba(163,26,7,1);
+    --main-color-lighter: rgb(236, 185, 185);
+    --main-color-darker: rgba(129, 25, 11,1);
+    --black: rgb(88, 88, 88);
+    --yellow: rgb(240, 200, 42);
+    --blue: rgb(71, 128, 174) ;
+    max-width: 100vw;
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    color: var(--black);
+}
+
+
+.mainButton{
+    padding: 1em;
+    font-weight: bold;
+    border: solid var(--black) 2px;
+    background-color: transparent;
+    color: var(--black);
+    transition: all .2s ease-in-out;
+}
+
+.mainButton:hover{
+    transform: scale(1.1);
+    background-color: var(--black);
+    color:white;
+}
+
+.mainButton:active{
+    filter: brightness(70%);
+}

@@ -1,0 +1,4 @@
+#studio{
+    background: linear-gradient(180deg, transparent 20%, var(--blue) 0%);
+    height: 30em;
+}

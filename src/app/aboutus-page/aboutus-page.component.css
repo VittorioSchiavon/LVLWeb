@@ -1,0 +1,59 @@
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.person{
+    max-width: 30%;
+    min-width: 20em;
+    align-items: center;
+    text-align: center;
+}
+.profileImage{
+    width: 15em;
+}
+
+.role{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.name{
+    color: var(--main-color-darker);
+    font-weight: 900;
+    
+    text-transform: uppercase;
+}
+.bio{
+    padding: 1em;
+}
+
+.studio{
+    width: 100%;
+    display: flex;
+    padding: 3%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.studio .bio{
+    max-width: 50em;
+}
+.studio img{
+    height: 15em;
+}
+.textBox{
+    padding:2%;
+}
+
+#title{
+    font-size: 2.5em;
+    margin: 0.5em;
+    font-weight: 900;
+    background-color: var(--main-color-darker);
+    padding: 0.5em;
+    color:white;
+
+}

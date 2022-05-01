@@ -1,0 +1,42 @@
+#container{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top:10px;
+}
+
+#rightSection{
+    
+    margin: 0;
+    box-sizing: content-box;
+    height: fit-content;
+}
+#rightSection img{
+    height: 30em;
+    background: linear-gradient(180deg, transparent 30%, var(--blue) 0%);
+}
+#leftSection{
+    max-width: 30em;
+}
+
+#title{
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: right;
+}
+
+#leftSection #textSection{
+    padding-right: 2em;
+    text-align: right;
+}
+
+button{
+    display: block;
+    margin:auto;
+    margin-top:1em;
+}
