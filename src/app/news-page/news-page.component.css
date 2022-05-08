@@ -1,0 +1,24 @@
+iframe{
+    height: 40em;
+    border: none;
+    background-color: transparent;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Feedback{
+    display: none;
+}
+
+#title{
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+    font-size: 2em;
+
+}

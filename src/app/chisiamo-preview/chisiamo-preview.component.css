@@ -35,8 +35,30 @@
     text-align: right;
 }
 
-button{
+a{
     display: block;
+    text-decoration: none;
+    width: fit-content;
     margin:auto;
     margin-top:1em;
 }
+
+
+.fadeIn{
+   -webkit-animation: fadeIn 1.2s both; /* Safari 4+ */
+   -moz-animation: fadeIn 1.2s both; /* Fx 5+ */
+   -o-animation: fadeIn 1.2s both; /* Opera 12+ */
+   animation: fadeIn 1.2s both; /* IE 10+, Fx 29+ */
+ } 
+ 
+ @keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(+50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+  }
+  

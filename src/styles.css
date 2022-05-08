@@ -1,11 +1,87 @@
+@font-face {
+    font-family: "Lusitana-Regular";
+    src: local("Lusitana-Regular"), url(./assets/fonts/Lusitana/Lusitana-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Lusitana-Bold";
+    src: local("Lusitana-Bold"), url(./assets/fonts/Lusitana/Lusitana-Bold.ttf) format("truetype");
+    font-weight: 1 999;
+}
+
+@font-face {
+    font-family: "Vollkorn";
+    src: local("Vollkorn"), url(./assets/fonts/Vollkorn/Vollkorn-VariableFont_wght.ttf) format("truetype");
+    font-weight: 1 999;
+}
+
+@font-face {
+    font-family: "MarkaziText";
+    src: local("MarkaziText"), url(./assets/fonts/Markazi_Text/MarkaziText-VariableFont_wght.ttf) format("truetype");
+    font-weight: 1 999;
+}
+
+@font-face {
+    font-family: "yugothib";
+    src: local("yugothib"), url(./assets/fonts/yu-gothic/yugothib.ttf) format("truetype");
+    font-weight: 1 999;
+}
+@font-face {
+    font-family: "ReemKufi";
+    src: local("ReemKufi"), url(./assets/fonts/Reem_Kufi/ReemKufi-VariableFont_wght.ttf) format("truetype");
+    font-weight: 1 999;
+}
+
+@font-face {
+    font-family: "DashiellFine";
+    src: local("DashiellFine"), url(./assets/fonts/Demo_Fonts/Fontspring-DEMO-dashiellfine-xbold-2.otf) format("truetype");
+    font-weight: 1 999;
+}
+
+@font-face {
+    font-family: "Kameron-Regular";
+    src: local("Kameron-Regular"), url(./assets/fonts/Kameron/Kameron-Regular.ttf) format("truetype");
+    font-weight: 1 999;
+}
+@font-face {
+    font-family: "Kameron-Bold";
+    src: local("Kameron-Bold"), url(./assets/fonts/Kameron/Kameron-Bold.ttf) format("truetype");
+    font-weight: 1 999;
+}
+@font-face {
+    font-family: "Halant-Regular";
+    src: local("Halant-Regular"), url(./assets/fonts/Halant/Halant-Regular.ttf) format("truetype");
+    font-weight: 1 999;
+}
+@font-face {
+    font-family: "Halant-Bold";
+    src: local("Halant-Bold"), url(./assets/fonts/Halant/Halant-Bold.ttf) format("truetype");
+    font-weight: 1 999;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins"), url(./assets/fonts/Poppins/Poppins-Black.ttf) format("truetype");
+    font-weight: 1 999;
+}
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins"), url(./assets/fonts/Poppins/Poppins-Black.ttf) format("truetype");
+    font-weight: 1 999;
+}
+
+@font-face {
+    font-family: "Poppins-light";
+    src: local("Poppins-light"), url(./assets/fonts/Poppins/Poppins-Medium.ttf) format("truetype");
+    font-weight: 1 999;
+}
 :root{
-    --main-color: rgba(163,26,7,1);
-    --main-color-lighter: rgb(236, 185, 185);
-    --main-color-darker: rgba(129, 25, 11,1);
-    --black: rgb(59, 59, 59);
+    --main-color: rgb(108, 108, 108);
+    --main-color-lighter: rgb(155, 155, 155);
+    --main-color-darker: rgb(55, 55, 55);
+    --black: rgb(50, 50, 50);
     --yellow: rgb(240, 200, 42);
     --blue: rgb(71, 128, 174) ;
-    --off-white: rgb(236, 231, 225);
+    --off-white: rgb(227, 227, 227);
     max-width: 100vw;
 
 }
@@ -13,10 +89,25 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins-light",Kameron-Regular, Halant-Regular, DashiellFine, "ReemKufi","yugothib", "Comic Sans MS", sans-serif;
     color: var(--black);
+    line-height: 1.6;
 }
 
+h1, h2, h3, h4{
+    font-family: "Poppins", Kameron-Bold, Halant-Regular, DashiellFine, "ReemKufi","yugothib", "Comic Sans MS", sans-serif;
+    letter-spacing: 3px;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: var(--off-white);
+    background: var(--main-color-darker);
+  }
+  
+  ::selection {
+    color: var(--off-white);
+    background: var(--main-color-darker);
+  }
 
 body{
     background-color: var(--off-white);
@@ -28,12 +119,15 @@ body{
     border: solid var(--black) 2px;
     background-color: transparent;
     color: var(--black);
-    transition: all .2s ease-in-out;
+    transition: all .5s ease-in-out;
+    letter-spacing: normal;
+    font-family: "Poppins", Kameron-Bold, Halant-Regular, DashiellFine, "ReemKufi","yugothib", "Comic Sans MS", sans-serif;
+
     
 }
 
 .mainButton:hover{
-    transform: scale(1.1);
+
     background-color: var(--black);
     color:white;
 }
@@ -52,3 +146,31 @@ body{
     background-color: var(--black);
 
 }
+ 
+
+img {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+  }
+
+
+
+  .fadeIn{
+    -webkit-animation: fadeIn 1.2s both; /* Safari 4+ */
+    -moz-animation: fadeIn 1.2s both; /* Fx 5+ */
+    -o-animation: fadeIn 1.2s both; /* Opera 12+ */
+    animation: fadeIn 1.2s both; /* IE 10+, Fx 29+ */
+  } 
+  
+  @keyframes fadeIn {
+     0% {
+         opacity: 0;
+         transform: translateY(+50px);
+     }
+     100% {
+         opacity: 1;
+         transform: translateX(0);
+     }
+   }
+   

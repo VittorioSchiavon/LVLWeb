@@ -4,16 +4,11 @@
 }
 
 #title{
-    color: var(--black);
-    display: block;
-    width: fit-content;
-    margin: auto;
-    font-size: 2em;
-    font-weight: 900;
+    color: var(--main-color);
     text-transform: uppercase;
-    position: relative;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    font-weight: 900;
+    text-align: center;
+    font-size: 2em;
 
 }
 

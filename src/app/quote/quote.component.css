@@ -16,6 +16,8 @@ h4{
     font-size: 1.3em;
     font-weight: 500;
     font-style: italic;
+    font-family: Kameron-Regular, Halant-Regular, DashiellFine, "ReemKufi","yugothib", "Comic Sans MS", sans-serif;
+
 }
 
 .highlight {
@@ -24,4 +26,12 @@ h4{
     background-repeat: no-repeat;
     background-size: 100% 40%;
     background-position: 0 90%;
+}
+
+.important{
+    position: relative;
+    width: fit-content;
+    display: inline-block;
+    font-family: Kameron-Bold, Halant-Regular, DashiellFine, "ReemKufi","yugothib", "Comic Sans MS", sans-serif;
+
 }

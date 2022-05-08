@@ -35,8 +35,10 @@
     text-align: right;
 }
 
-button{
+a{
     display: block;
+    text-decoration: none;
+    width: fit-content;
     margin:auto;
     margin-top:1em;
 }

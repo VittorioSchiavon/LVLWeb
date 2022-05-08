@@ -1,10 +1,9 @@
 #title{
-    position: relative;
-    width: fit-content;
-    display: block;
-    margin: auto;
+    color: var(--main-color);
     text-transform: uppercase;
-    margin-top: 1em;
+    font-weight: 900;
+    text-align: center;
+    font-size: 2em;
 }
 #container{
     padding-left: 10%;
@@ -15,37 +14,63 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    justify-content:space-around;
+    justify-content:space-between;
     position: relative;
     margin: 2em;
     align-items: center;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+
+
 }
 
+
+.articleContainer:hover img{
+    transform: scale(110%);
+}
+
+.articleContainer:hover .name{
+    color:var(--main-color);
+}
 .articleContainer::after{
     content : "";
     position : absolute;
     width : 100%;
-    height : 3px;
-    bottom: 0;
+    height : 2px;
+    bottom: -20px;
     left: 0;
     background-color: var(--black);
 }
 
 .artImage{
     height: 10em;
+    width: 10em;
+    overflow: hidden;
     margin: 1em;
+    transition: all .2s ease-in-out;
+    object-fit: cover;
 }
 
 .contentSection{
     min-width: 20em;
+    max-width: 40em;
+    width: 30em;
+    text-align: center;
+    margin: 1em;
 }
 .contentSection div{
     margin: 0.5em;
+    
 }
 
 .name{
     font-weight: 900;
     text-transform: uppercase;
+    font-size: 1.2em;
+}
+.date{
+    margin: 1em;
+    width: 10em;
 }
 
 label{

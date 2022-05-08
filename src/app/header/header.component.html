@@ -5,22 +5,22 @@
         <a class="links" href="aboutUs">Chi siamo</a>
         <a class="links" href="contact">info e contatti</a>
         <a class="links" href="projects">Progetti</a>
-        <a class="links" href="articles">Articoli</a>
+        <a class="links" href="publications">pubblicationi</a>
         <a class="links" href="workWithUs">lavora con noi</a>
-        <a class="links" href="news">novità</a>
+        <a class="links" href="news">Social</a>
     </div>
     <div id="hamb">
         <button id="hambButton" (click)="check()">{{hamb}}</button>
-        <div class="menuBox" [class.hidden]="!checked">
-            <div id="menuContainer" (click)="check()">
-                <a class="hambSection" href="homepage">Homepage</a>
-                <a class="hambSection" href="aboutUs">About Us</a>
-                <a class="hambSection" href="contact">info</a>
-                <a class="hambSection" href="projects">Projects</a>
-                <a class="hambSection" href="articles">Articles</a>
-                <a class="hambSection" href="workWithUs">Work With Us</a>
-                <a class="hambSection" href="news">News</a>
-            </div>
-        </div>
     </div>
 </nav>
+<div class="menuBox" [class.hidden]="!checked">
+    <div id="menuContainer" (click)="check()">
+        <a class="hambSection" href="homepage">Homepage</a>
+        <a class="hambSection" href="aboutUs">Chi siamo</a>
+        <a class="hambSection" href="contact">info e contatti</a>
+        <a class="hambSection" href="projects">Progetti</a>
+        <a class="hambSection" href="publications">pubblicationi</a>
+        <a class="hambSection" href="workWithUs">lavora con noi</a>
+        <a class="hambSection" href="news">Social</a>
+    </div>
+</div>

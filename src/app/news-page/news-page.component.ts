@@ -12,4 +12,5 @@ export class NewsPageComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
 }

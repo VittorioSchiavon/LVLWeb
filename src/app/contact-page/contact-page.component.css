@@ -3,13 +3,10 @@
     height: 30em;
 }
 #title{
-    position: relative;
-    width: fit-content;
-    display: block;
-    margin: auto;
+    color: var(--main-color);
     text-transform: uppercase;
-    margin-top: 1em;
-
+    font-weight: 900;
+    font-size: 2em;
 }
 
 .container{
@@ -39,8 +36,9 @@
 
 .sede{
     width: 100%;
+    color:var(--main-color);
     text-align: center;
-    font-weight: bold;
+    font-weight: 900;
     text-transform: uppercase;
     font-size: 1.4em;
     margin: 1em;
@@ -48,4 +46,18 @@
 
 .inverted{
     flex-direction: row-reverse;
+}
+
+#socialsTitle{
+    font-size: 1.5em;
+}
+#socials{
+    text-align: center;
+    padding: 2em;
+}
+
+#firstRow{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }

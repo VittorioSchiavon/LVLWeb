@@ -1,0 +1,70 @@
+#container{
+    padding: 1em;
+    margin: auto;
+}
+
+#infoBox{
+    position: sticky;
+    z-index: 1;
+    top:5em;
+    left: 0;
+    width: 20em;
+    float: left;
+}
+.infoContainer{
+    min-width: 20em;
+    padding: 0.2em;
+}
+.infoData{
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-left: 2em;
+    font-family: "Poppins", Kameron-Bold, Halant-Regular, DashiellFine, "ReemKufi","yugothib", "Comic Sans MS", sans-serif;
+    color: var(--main-color);
+}
+.infoLabel{
+    margin: 0.5em;
+    color:var(--main-color);
+}
+hr{
+    margin: 0.5em;
+}
+b{
+    font-size: 1.1em;
+}
+
+#explanation{
+    line-height: 1.6;
+    padding: 4em;
+    margin-left: 20em;
+}
+#name{
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-weight: 900;
+
+}
+
+#imagesContainer{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+}
+
+
+#imagesContainer img{
+    height: 20em;
+
+}
+
+#mainImage{
+    width: 25em;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+b{
+    font-family: "Poppins", Kameron-Bold, Halant-Regular, DashiellFine, "ReemKufi","yugothib", "Comic Sans MS", sans-serif;
+
+}

@@ -30,8 +30,10 @@
 #leftSection #textSection{
     padding-left: 2em;
 }
-button{
+a{
     display: block;
+    text-decoration: none;
+    width: fit-content;
     margin:auto;
     margin-top:1em;
 }

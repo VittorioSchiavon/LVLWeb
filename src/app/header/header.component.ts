@@ -22,6 +22,7 @@ export class HeaderComponent implements OnInit {
     }else{
       this.hamb="☰";
     }
+    console.log(this.checked)
   }
 
 }

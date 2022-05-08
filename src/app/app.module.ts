@@ -16,6 +16,7 @@ import { NewsPageComponent } from './news-page/news-page.component';
 import { ChisiamoPreviewComponent } from './chisiamo-preview/chisiamo-preview.component';
 import { QuoteComponent } from './quote/quote.component';
 import { ArticlesPreviewComponent } from './articles-preview/articles-preview.component';
+import { NetPageComponent } from './net-page/net-page.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ArticlesPreviewComponent } from './articles-preview/articles-preview.co
     NewsPageComponent,
     ChisiamoPreviewComponent,
     QuoteComponent,
-    ArticlesPreviewComponent
+    ArticlesPreviewComponent,
+    NetPageComponent
   ],
   imports: [
     BrowserModule,
