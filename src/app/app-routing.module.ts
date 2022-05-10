@@ -19,6 +19,7 @@ const routes: Routes = [
   { path: 'workWithUs', component: WorkwithusPageComponent },
   { path: 'news', component: NewsPageComponent },
   { path: 'projects/netCenter', component: NetPageComponent }
+  
 ];
 
 

@@ -1,13 +1,13 @@
 <nav>
-    <a href="homepage"><img class="logo" src="assets/images/logo.png" alt=""></a>
+    <a routerLink="homepage"><img class="logo" src="assets/images/logo.png" alt=""></a>
     <div class="rightSection">
-        <a class="links" href="homepage">Homepage</a>
-        <a class="links" href="aboutUs">Chi siamo</a>
-        <a class="links" href="contact">info e contatti</a>
-        <a class="links" href="projects">Progetti</a>
-        <a class="links" href="publications">pubblicationi</a>
-        <a class="links" href="workWithUs">lavora con noi</a>
-        <a class="links" href="news">Social</a>
+        <a class="links" routerLink="/homepage">Homepage</a>
+        <a class="links" routerLink="/aboutUs">Chi siamo</a>
+        <a class="links" routerLink="/contact">info e contatti</a>
+        <a class="links" routerLink="projects">Progetti</a>
+        <a class="links" routerLink="publications">pubblicationi</a>
+        <a class="links" routerLink="workWithUs">lavora con noi</a>
+        <a class="links" routerLink="news">Social</a>
     </div>
     <div id="hamb">
         <button id="hambButton" (click)="check()">{{hamb}}</button>
@@ -15,12 +15,12 @@
 </nav>
 <div class="menuBox" [class.hidden]="!checked">
     <div id="menuContainer" (click)="check()">
-        <a class="hambSection" href="homepage">Homepage</a>
-        <a class="hambSection" href="aboutUs">Chi siamo</a>
-        <a class="hambSection" href="contact">info e contatti</a>
-        <a class="hambSection" href="projects">Progetti</a>
-        <a class="hambSection" href="publications">pubblicationi</a>
-        <a class="hambSection" href="workWithUs">lavora con noi</a>
-        <a class="hambSection" href="news">Social</a>
+        <a class="hambSection" routerLink="homepage">Homepage</a>
+        <a class="hambSection" routerLink="aboutUs">Chi siamo</a>
+        <a class="hambSection" routerLink="contact">info e contatti</a>
+        <a class="hambSection" routerLink="projects">Progetti</a>
+        <a class="hambSection" routerLink="publications">pubblicationi</a>
+        <a class="hambSection" routerLink="workWithUs">lavora con noi</a>
+        <a class="hambSection" routerLink="news">Social</a>
     </div>
 </div>
